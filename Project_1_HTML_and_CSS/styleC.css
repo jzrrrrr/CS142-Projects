@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    height: 150px;
+    width: auto;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.item {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    font-family: Tahoma;
+    font-size: 40px;
+    cursor: pointer;
+    flex: none;
+
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.item:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.item:last-child {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
