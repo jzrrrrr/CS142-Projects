@@ -9,7 +9,7 @@
 您可以在 `project2` 目录下运行以下命令来获取代码质量工具（也称为“linter”）[ESLint](https://eslint.org/)：
 
 ```
-npm install
+npm install eslint
 ```
 
 这会将 ESLint 获取到 `node_modules` 子目录中。您可以通过运行以下命令在 `project2` 目录中的所有 JavaScript 文件上运行 ESLint：
